@@ -1,0 +1,7 @@
+O arquivo modificado pode ser retornado para o estado original
+
+git checkout <nome do arquivo>
+
+mesmo desfazendo as alterações na mão, ainda aparecerá que o arquivo foi modificado, para isso basta dar um checkout que o arquivo voltará para o estado do ultimo commit
+
+OBS.: usar somente se quiser remover tudo daquele arquivo
