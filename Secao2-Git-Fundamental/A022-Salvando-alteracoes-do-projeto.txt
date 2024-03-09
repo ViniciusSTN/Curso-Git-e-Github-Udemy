@@ -1,0 +1,8 @@
+Para salvar as alterações
+git commit 
+
+Para commitar arquivos especificos:
+-a
+
+Para adicionar mesnagem ao commit:
+-m

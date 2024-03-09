@@ -1,0 +1,8 @@
+Pode adicionar um arquivo por vez ou varios ao mesmo tempo
+
+git add <nome do arquivo>
+
+git add .
+
+Ao executar git status:
+-> Changes to be committed...
