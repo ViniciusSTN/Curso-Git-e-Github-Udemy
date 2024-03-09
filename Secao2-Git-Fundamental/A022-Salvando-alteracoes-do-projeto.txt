@@ -6,3 +6,19 @@ Para commitar arquivos especificos:
 
 Para adicionar mesnagem ao commit:
 -m
+
+
+
+Enviar um arquivo
+git commit <nome do arquivo> -m "texto"
+
+Enviar varios arquivos:
+git commit -a -m "texto"
+
+ou
+
+git commit -m "texto"
+
+
+
+OBS: PODE FAZER VARIOS COMMITS SEM SEM SUBIR PARA A BRANCH ACIMA (no caso a main)
