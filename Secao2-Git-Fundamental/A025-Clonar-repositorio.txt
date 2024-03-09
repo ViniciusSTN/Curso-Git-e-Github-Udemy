@@ -1,0 +1,8 @@
+Muito usado ao ingressar em um projeto
+Passa referencia do repositório remoto
+git clone
+
+
+Copiar URL do repositório no github
+
+git clone <link do repositório> .
