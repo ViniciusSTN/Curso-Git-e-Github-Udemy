@@ -1,0 +1,4 @@
+Sincronizar o local com as mudanças do remoto
+git pull
+
+após o comando, será buscado atualizações, se encontradas, elas serão unidas ao código atual
