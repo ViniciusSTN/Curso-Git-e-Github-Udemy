@@ -1,0 +1,4 @@
+Muito usado para dados sensíveis
+.gitignore
+
+Adicionar na raiz do projeto
