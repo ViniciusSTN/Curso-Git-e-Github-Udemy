@@ -1,0 +1,6 @@
+Muito utilizado:
+git status
+
+Arquivos untracked -> não foram adicionados no git (arquivo criado e não commitado) - Sintaxe U no vscode
+
+Arquivos not staged for commit -> não foi feito o commit das alterações feitas no arquivo - Sintaxe M no vscode
