@@ -1,0 +1,13 @@
+Desfazendo todas as alterações
+
+Podemos resetar as mudanças feitas
+git reset
+
+geralmente é usado com a flag --hard
+
+Todas as alterações commitadas e também as pendentes serão EXCLUÍDAS
+
+Ou seja, todos as alterações (inclusive os commits) que estiverem a frente do main, serão deletados, fazendo com que essa branch volte ao estado inicial (mesmo estado do main), ou seja, o último push
+
+
+git reset --hard origin/main
