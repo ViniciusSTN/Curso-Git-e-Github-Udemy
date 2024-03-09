@@ -1,0 +1,7 @@
+Podemos deletar arquivos da monitoração git
+
+git rm <nome do arquivo>
+
+OBS: o arquivo  será removido da pasta e do repositório. Quando alguem fizer git pull, os arquivos serão removidos para essa pessoa também
+
+Se o objetivo é apenas ignorar o arquivo, é preciso usar .gitignore
