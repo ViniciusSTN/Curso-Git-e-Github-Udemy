@@ -1,0 +1,6 @@
+Historico de alterações
+git log
+
+para sair:
+ctrl + 'c'
+ou 'q'
