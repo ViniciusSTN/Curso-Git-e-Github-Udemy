@@ -1,0 +1,12 @@
+git mv
+
+Obs.: Esse comando pode ser usado para mover ou renomear o arquivo. Semelhante ao ctrl + 'x'
+
+
+MOVER
+git mv <caminho> <novo caminho>
+-- ex: git mv style.css css/style.css --
+
+RENOMEAR
+git mv <caminho> <novo caminho>
+-- ex: git mv style.css css/index_styles.css --
