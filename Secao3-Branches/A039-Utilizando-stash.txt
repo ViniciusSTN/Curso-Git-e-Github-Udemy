@@ -1,0 +1,5 @@
+Quando quero resetar minha branch mas desejo guardar as alterações caso for útil eventualmente:
+
+git stash
+
+Com isso, não será feito nenhum commit, mas os stash são armazenados e poderei recuoperar posteriormente
