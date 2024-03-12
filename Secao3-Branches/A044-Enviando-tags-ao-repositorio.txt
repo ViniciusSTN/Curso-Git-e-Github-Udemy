@@ -1,0 +1,8 @@
+Comando:
+git push origin <nome>
+
+Ou se quiser enviar mais tags:
+git push origin --tags
+
+
+Não é preciso enviar um branch inteiro, as vezes só uma tag já basta
