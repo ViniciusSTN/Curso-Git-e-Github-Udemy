@@ -1,0 +1,15 @@
+Podemos mudar para outro branch utilizando o comando 
+git checkout <nome da branch existente>
+
+Podemos criar uma nova brench e mudar para ela em um mesmo comando
+git checkout -b <nome da nova branch>
+ 
+
+
+Esse comando também é utilizado para dispensar mudanças de um arquivo
+
+Obs.: Alterando um branch podemos levar alterações que não foram commitadas junto, CUIDADO. Quando isso acontecer, basta voltar na branch, commitar e depois trocar de branch novamente para não misturar o código
+
+Obs.: Geralmente as novas branches são criadas a partir da main
+
+A ideia de ter branches é para separar o código, testar para somente depois subir para a main, que é o código que vai para a produção
