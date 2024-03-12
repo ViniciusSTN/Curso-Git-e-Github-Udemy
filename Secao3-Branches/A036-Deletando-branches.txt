@@ -1,0 +1,7 @@
+Para deletar
+git branch -d <nome>        ou
+git branch --delete <nome>
+
+Não é comum deletar branches, normalmente é guardado o histórico do trabalho
+
+Geralmente deletamos quando criamos errado
