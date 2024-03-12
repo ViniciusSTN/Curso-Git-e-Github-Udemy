@@ -1,0 +1,5 @@
+Para limpar totalmente as stashes de um branch:
+git stash clear
+
+Para deletar uma stash específica:
+git stash drop <id da stash>
