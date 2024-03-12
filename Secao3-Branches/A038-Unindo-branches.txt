@@ -1,0 +1,18 @@
+Para unir o atual com <nome>:
+git merge <nome>
+
+ex: 
+git checkout main  -> ir para a main
+git merge novo_branch  -> unir a main com novo_branch, am main irá ganhar a funcionalidade criada no novo_branch
+
+Obs.: em um projeto real, nunca a atualização da main é feita por código, geralmente é feito no GitHub fazendo 'envio de funcionalidades' -> é um processo um pouco diferente
+
+ 
+ 
+É comum fazer o merge de uma branch com outra que está mais atualizada (mais recente)
+
+É comum atualizar a branch que estou mexendo, basta fazer um merge da main, ou seja: git merge main
+-> isso da mais segurança que a tarefa está sendo executada corretamente
+
+--------------------------------------
+Em resumo: Nunca atualizar a main diretamente com merge usando nosso código, e sim atualizar nosso código fazendo merge da main
