@@ -1,0 +1,11 @@
+Para visualizar as branches disponiveis
+git branch
+
+Para criar
+git branch <nome>
+
+------------------------
+ao executar git branch
+* main -> branch atual
+
+quando crio uma nova branch, ela parte do branch que estou, ou seja, se eu estiver no main e criar uma nova branch, ela usará como base a main 
