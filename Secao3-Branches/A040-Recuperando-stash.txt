@@ -1,0 +1,9 @@
+Podemos verificar as stashes criadas pelo comando:
+git stash list
+
+Para ver o que foi guardado pela stash:
+git stash show -p <id da stash>
+
+Para recuperar a stash:
+git stash <nome>        ou
+git stash apply <id da stash>

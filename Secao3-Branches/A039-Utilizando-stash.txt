@@ -1,5 +1,27 @@
 Quando quero resetar minha branch mas desejo guardar as alterações caso for útil eventualmente:
 
-git stash
+git stash       -> irá limpar apenas as modificações de arquivos já monitorados pelo git
+
+git stash -u    -> inclui untracked (arquivos não monitorados pelo git, ou seja, sem ser adicionados usando git add).
+IMPORTANTE: aparentemente não é possível recupera-los depois
+
 
 Com isso, não será feito nenhum commit, mas os stash são armazenados e poderei recuoperar posteriormente
+
+
+------------------------
+Chat GPT
+
+Quando você usa o comando git stash, o Git armazena temporariamente as mudanças que você fez no diretório de trabalho e no índice (área de preparação para o commit), mas não as confirma (commit) no histórico do Git.
+
+O comando git stash é útil quando você deseja salvar suas mudanças temporariamente para trabalhar em algo diferente, como mudar de branch ou resolver um problema urgente. Isso limpa seu diretório de trabalho para que você possa mudar de contexto sem ter que fazer commit das mudanças atuais.
+
+Para aplicar novamente as alterações armazenadas, você pode usar git stash apply ou git stash pop. A diferença é que git stash apply apenas aplica as alterações, enquanto git stash pop aplica as alterações e remove o stash da lista de stashes.
+
+Se você quiser descartar completamente as mudanças armazenadas no stash, você pode usar git stash drop. E se quiser aplicar as mudanças e removê-las do stash em um único comando, pode usar git stash pop.
+
+O comando git stash realmente não armazena novos arquivos (não rastreados) no stash. Ele armazena apenas as mudanças nos arquivos rastreados que foram modificados e/ou adicionados ao índice (staged).
+
+Se você tiver novos arquivos não rastreados (arquivos que você adicionou recentemente ao diretório de trabalho, mas ainda não os adicionou ao Git usando git add), o comando git stash não os incluirá no stash. Esses novos arquivos permanecerão no seu diretório de trabalho mesmo depois de executar git stash.
+
+Se você deseja incluir esses novos arquivos no stash, você primeiro precisará adicioná-los ao índice usando git add, e então você pode usar git stash. Ou, se você deseja apenas limpar o diretório de trabalho completamente, incluindo os novos arquivos não rastreados, você pode usar git stash -u ou git stash --include-untracked. Isso incluirá as alterações nos arquivos rastreados e quaisquer novos arquivos não rastreados no stash.
